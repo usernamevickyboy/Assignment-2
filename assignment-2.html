@@ -5,7 +5,7 @@ class ASSnew {
 
         String url = "jdbc:mysql://localhost:3306/bank";
         String user = "root";
-        String pass = "Sanjai@msd7";
+        String pass = "vignesh";
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection con= DriverManager.getConnection(url,user,pass);
         Statement s=con.createStatement();
@@ -17,7 +17,7 @@ class ASSnew {
     public static void updatePhone(int acc_no,int Phone_no,int pin_no) throws ClassNotFoundException, SQLException {
         String url = "jdbc:mysql://localhost:3306/bank";
         String user = "root";
-        String pass = "Sanjai@msd7";
+        String pass = "vignesh";
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection con= DriverManager.getConnection(url,user,pass);
         Statement s=con.createStatement();
@@ -32,7 +32,7 @@ class ASSnew {
     public static void Show()throws ClassNotFoundException, SQLException{
         String url="jdbc:mysql://localhost:3306/bank";
         String user ="root";
-        String pass = "Sanjai@msd7";
+        String pass = "vignesh";
         Class.forName("com.mysql.cj.jdbc.Driver");
         System.out.println("driver loaded");
         Connection con = DriverManager.getConnection(url,user,pass);
@@ -48,7 +48,7 @@ class ASSnew {
     public static void insert(int acc_no,String acc_name,int pin_no,String pan_no,int balance,String address,String acc_type,String bank_name,int phone_no)throws ClassNotFoundException, SQLException{
         String url="jdbc:mysql://localhost:3306/bank";
         String user ="root";
-        String pass = "Sanjai@msd7";
+        String pass = "vignesh";
         Class.forName("com.mysql.cj.jdbc.Driver");
         System.out.println("driver loaded");
         Connection con = DriverManager.getConnection(url,user,pass);
